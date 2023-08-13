@@ -421,6 +421,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 
 .social-icons-item {
@@ -441,4 +442,8 @@ img {
 .social-icons-link:hover,
 .social-icons-link:focus {
     background-color: var(--secondary-brand-color);
+}
+
+.social-icon {
+    fill: var(--secondary-white-color);
 }
