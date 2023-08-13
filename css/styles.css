@@ -100,10 +100,6 @@ img {
     gap: 40px;
 }
 
-.nav-item {
-    position: relative;
-}
-
 .nav-link {
     color: var(--primary-black-color);
     font-family: var(--font-family);
@@ -113,10 +109,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
     padding: 24px 0;
+    position: relative;
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus {    
     color: var(--secondary-brand-color);
     outline: none;
 }
@@ -130,7 +127,7 @@ img {
     border-radius: 2px;
     background: var(--secondary-brand-color);
     left: 0;
-    bottom: -20px;
+    bottom: 4px;
 }
 
 .address {
