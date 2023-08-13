@@ -7,6 +7,7 @@
     --primary-brand-color: #4D5AE5;
     --secondary-brand-color: #404BBF;
     --primary-accent-color: #E7E9FC;
+    --green-color: #31d0aa;
     --font-family: "Roboto", sans-serif;
 }
 
@@ -483,7 +484,7 @@ img {
 
 .footer-container {
     display: flex;
-    align-items: start;
+    align-items: baseline;
 }
 
 .info-footer-container {
@@ -504,4 +505,9 @@ img {
 
 .social-footer {
     gap: 16px;
+}
+
+.social-footer .social-icons-link:hover,
+.social-footer .social-icons-link:focus {
+    background-color: var(--green-color);
 }
