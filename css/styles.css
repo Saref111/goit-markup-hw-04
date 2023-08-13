@@ -480,3 +480,28 @@ img {
 .customers-logo {
     fill: currentColor;
 }
+
+.footer-container {
+    display: flex;
+    align-items: start;
+}
+
+.info-footer-container {
+    margin-right: 120px;
+}
+
+.social-title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--primary-white-color);
+}
+
+.social-footer {
+    gap: 16px;
+}
